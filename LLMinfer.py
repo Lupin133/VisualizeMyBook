@@ -44,7 +44,7 @@ class LLMInference:
 if __name__ == "__main__":
     inference = LLMInference(
         max_output_len=150,
-        tokenizer_dir="Mistral-7B-Instruct-v0.1",
+        tokenizer_dir="mistral7b_hf_tokenizer",
         engine_dir="converted",
         max_attention_window_size=4096
     )
