@@ -1,0 +1,23 @@
+pywin32
+pypiwin32
+colored
+ftfy
+gradio
+matplotlib
+nvtx
+onnx
+onnxruntime
+scipy
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+huggingface-hub
+accelerate
+controlnet_aux
+cuda-python
+diffusers>=0.19.3
+transformers==4.31.0
+--extra-index-url https://pypi.ngc.nvidia.com
+onnx-graphsurgeon
+polygraphy
+pymupdf
